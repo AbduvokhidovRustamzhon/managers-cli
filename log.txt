@@ -1,0 +1,386 @@
+
+
+2020/02/02 12:11:58 start application
+2020/02/02 12:11:58 open db
+2020/02/02 12:11:58 start operations loop
+2020/02/02 12:12:01 finish operations loop
+2020/02/02 12:12:01 finish application
+2020/02/02 12:12:01 close db
+2020/02/02 14:16:40 start application
+2020/02/02 14:16:40 open db
+2020/02/02 14:16:40 start operations loop
+2020/02/02 14:17:02 finish operations loop
+2020/02/02 14:17:02 finish application
+2020/02/02 14:17:02 close db
+2020/02/10 17:28:43 start application
+2020/02/10 17:28:43 open db
+2020/02/10 17:28:43 start operations loop
+2020/02/10 17:32:37 can't handle login: invalid password
+2020/02/10 17:32:37 finish operations loop
+2020/02/10 17:32:37 finish application
+2020/02/10 17:32:37 close db
+2020/02/10 17:35:01 start application
+2020/02/10 17:35:01 open db
+2020/02/10 17:35:01 start operations loop
+2020/02/10 17:35:21 can't handle login: invalid password
+2020/02/10 17:35:21 finish operations loop
+2020/02/10 17:35:21 finish application
+2020/02/10 17:35:21 close db
+2020/02/10 17:37:47 start application
+2020/02/10 17:37:47 open db
+2020/02/10 17:37:47 start operations loop
+2020/02/10 17:37:59 can't handle login: invalid password
+2020/02/10 17:37:59 finish operations loop
+2020/02/10 17:37:59 finish application
+2020/02/10 17:37:59 close db
+2020/02/10 17:40:01 start application
+2020/02/10 17:40:01 open db
+2020/02/10 17:40:01 start operations loop
+2020/02/10 21:07:47 start application
+2020/02/10 21:07:47 open db
+2020/02/10 21:07:47 start operations loop
+2020/02/10 21:09:16 finish operations loop
+2020/02/10 21:09:16 finish application
+2020/02/10 21:09:16 close db
+2020/02/10 21:14:06 start application
+2020/02/10 21:14:06 open db
+2020/02/10 21:14:06 start operations loop
+2020/02/10 21:14:40 start application
+2020/02/10 21:14:40 open db
+2020/02/10 21:14:40 start operations loop
+2020/02/10 21:14:51 can't handle login: invalid password
+2020/02/10 21:14:51 finish operations loop
+2020/02/10 21:14:51 finish application
+2020/02/10 21:14:51 close db
+2020/02/10 21:15:15 start application
+2020/02/10 21:15:15 open db
+2020/02/10 21:15:15 start operations loop
+2020/02/10 21:15:53 can't handle login: invalid password
+2020/02/10 21:15:53 finish operations loop
+2020/02/10 21:15:53 finish application
+2020/02/10 21:15:53 close db
+2020/02/10 21:16:40 start application
+2020/02/10 21:16:40 open db
+2020/02/10 21:16:40 start operations loop
+2020/02/10 21:17:09 can't handle login: invalid password
+2020/02/10 21:17:11 finish operations loop
+2020/02/10 21:17:11 finish application
+2020/02/10 21:17:11 close db
+2020/02/10 21:17:30 start application
+2020/02/10 21:17:30 open db
+2020/02/10 21:17:30 start operations loop
+2020/02/10 21:18:43 can't handle login: invalid password
+2020/02/10 21:19:01 finish operations loop
+2020/02/10 21:19:02 finish application
+2020/02/10 21:19:03 close db
+2020/02/10 21:19:53 start application
+2020/02/10 21:19:53 open db
+2020/02/10 21:19:53 start operations loop
+2020/02/10 21:20:06 can't handle login: invalid password
+2020/02/10 21:20:06 finish operations loop
+2020/02/10 21:20:06 finish application
+2020/02/10 21:20:06 close db
+2020/02/10 21:20:57 start application
+2020/02/10 21:20:57 open db
+2020/02/10 21:20:57 start operations loop
+2020/02/10 21:21:58 can't handle login: invalid password
+2020/02/10 21:22:01 finish operations loop
+2020/02/10 21:22:02 finish application
+2020/02/10 21:22:03 close db
+2020/02/10 21:23:44 start application
+2020/02/10 21:23:44 open db
+2020/02/10 21:23:44 start operations loop
+2020/02/10 21:24:01 can't handle login: invalid password
+2020/02/10 21:24:24 start application
+2020/02/10 21:24:24 open db
+2020/02/10 21:24:24 start operations loop
+2020/02/10 21:24:38 can't handle login: invalid password
+2020/02/10 21:25:39 start application
+2020/02/10 21:25:39 open db
+2020/02/10 21:25:39 start operations loop
+2020/02/10 21:25:52 can't handle login: invalid password
+2020/02/10 21:28:10 start application
+2020/02/10 21:28:10 open db
+2020/02/10 21:28:10 start operations loop
+2020/02/10 21:28:44 finish operations loop
+2020/02/10 21:28:44 finish application
+2020/02/10 21:28:44 close db
+2020/02/10 21:28:50 start application
+2020/02/10 21:28:50 open db
+2020/02/10 21:28:50 start operations loop
+2020/02/10 21:30:22 start application
+2020/02/10 21:30:22 open db
+2020/02/10 21:30:22 start operations loop
+2020/02/10 21:30:37 start application
+2020/02/10 21:30:37 open db
+2020/02/10 21:30:37 start operations loop
+2020/02/10 21:33:34 start application
+2020/02/10 21:33:34 open db
+2020/02/10 21:33:34 start operations loop
+2020/02/10 21:34:13 start application
+2020/02/10 21:34:13 open db
+2020/02/10 21:34:13 start operations loop
+2020/02/10 21:34:43 can't handle login: invalid password
+2020/02/10 21:35:49 start application
+2020/02/10 21:35:49 open db
+2020/02/10 21:35:49 start operations loop
+2020/02/10 21:36:03 can't handle login: invalid password
+2020/02/10 21:38:10 start application
+2020/02/10 21:38:10 open db
+2020/02/10 21:38:10 start operations loop
+2020/02/10 21:38:25 can't handle login: invalid password
+2020/02/10 21:51:17 start application
+2020/02/10 21:51:17 open db
+2020/02/10 21:51:17 start operations loop
+2020/02/10 21:51:33 start application
+2020/02/10 21:51:33 open db
+2020/02/10 21:51:33 start operations loop
+2020/02/10 21:51:43 can't add sale: expected integer
+2020/02/10 21:51:43 finish operations loop
+2020/02/10 21:51:43 finish application
+2020/02/10 21:51:43 close db
+2020/02/10 21:54:17 start application
+2020/02/10 21:54:17 open db
+2020/02/10 21:54:17 start operations loop
+2020/02/11 01:59:39 start application
+2020/02/11 01:59:39 open db
+2020/02/11 01:59:39 start operations loop
+2020/02/11 09:04:30 start application
+2020/02/11 09:04:30 open db
+2020/02/11 09:04:30 start operations loop
+2020/02/11 09:05:13 can't handle login: invalid password
+2020/02/11 09:06:48 start application
+2020/02/11 09:06:48 open db
+2020/02/11 09:06:48 start operations loop
+2020/02/11 09:07:12 can't add sale: sql: no rows in result set
+2020/02/11 19:15:47 start application
+2020/02/11 19:15:47 open db
+2020/02/11 19:15:47 start operations loop
+2020/02/11 20:45:01 start application
+2020/02/11 20:45:01 open db
+2020/02/11 20:45:01 start operations loop
+2020/02/11 20:48:13 start application
+2020/02/11 20:48:13 open db
+2020/02/11 20:48:13 start operations loop
+2020/02/11 22:13:55 start application
+2020/02/11 22:13:55 open db
+2020/02/11 22:13:56 can't init db: near ")": syntax error
+2020/02/11 22:14:04 start application
+2020/02/11 22:14:04 open db
+2020/02/11 22:14:04 can't init db: near ")": syntax error
+2020/02/12 17:50:04 start application
+2020/02/12 17:50:05 open db
+2020/02/12 17:50:05 can't init db: near "phone": syntax error
+2020/02/12 17:51:20 start application
+2020/02/12 17:51:20 open db
+2020/02/12 17:51:20 can't init db: near "phone": syntax error
+2020/02/12 17:52:13 start application
+2020/02/12 17:52:13 open db
+2020/02/12 17:52:13 can't init db: near "phone": syntax error
+2020/02/12 17:52:47 start application
+2020/02/12 17:52:47 open db
+2020/02/12 17:52:47 can't init db: near "phone": syntax error
+2020/02/12 17:53:02 start application
+2020/02/12 17:53:02 open db
+2020/02/12 17:53:02 can't init db: near "phone": syntax error
+2020/02/12 17:54:15 start application
+2020/02/12 17:54:15 open db
+2020/02/12 17:54:15 can't init db: near "phone": syntax error
+2020/02/12 17:54:50 start application
+2020/02/12 17:54:50 open db
+2020/02/12 17:54:50 can't init db: near "phone": syntax error
+2020/02/12 17:55:10 start application
+2020/02/12 17:55:10 open db
+2020/02/12 17:55:10 can't init db: near "phone": syntax error
+2020/02/12 17:55:41 start application
+2020/02/12 17:55:41 open db
+2020/02/12 17:56:05 can't init db: near "phone": syntax error
+2020/02/12 17:58:43 start application
+2020/02/12 17:58:43 open db
+2020/02/12 17:58:43 can't init db: near ")": syntax error
+2020/02/12 17:58:53 start application
+2020/02/12 17:58:54 open db
+2020/02/12 17:58:54 can't init db: near ")": syntax error
+2020/02/12 17:59:01 start application
+2020/02/12 17:59:01 open db
+2020/02/12 17:59:01 can't init db: near ")": syntax error
+2020/02/12 18:59:51 start application
+2020/02/12 18:59:51 open db
+2020/02/12 18:59:51 can't init db: near ")": syntax error
+2020/02/12 19:00:36 start application
+2020/02/12 19:00:36 open db
+2020/02/12 19:01:04 start application
+2020/02/12 19:01:04 open db
+2020/02/12 19:02:57 start application
+2020/02/12 19:02:58 open db
+2020/02/12 19:02:58 can't init db: near "phone": syntax error
+2020/02/12 19:03:15 start application
+2020/02/12 19:03:15 open db
+2020/02/12 19:03:15 can't init db: near "phone": syntax error
+2020/02/12 19:03:22 start application
+2020/02/12 19:03:22 open db
+2020/02/12 19:07:54 start application
+2020/02/12 19:07:54 open db
+2020/02/12 19:07:54 can't init db: near "INTEGER": syntax error
+2020/02/12 19:08:08 start application
+2020/02/12 19:08:08 open db
+2020/02/12 19:09:52 can't init db: near "INTEGER": syntax error
+2020/02/12 19:09:58 start application
+2020/02/12 19:09:58 open db
+2020/02/12 19:09:58 can't init db: near ",": syntax error
+2020/02/12 19:10:07 start application
+2020/02/12 19:10:07 open db
+2020/02/12 19:15:16 start application
+2020/02/12 19:15:16 open db
+2020/02/12 19:15:16 start operations loop
+2020/02/12 19:19:48 can't add client: expected integer
+2020/02/12 19:25:58 start application
+2020/02/12 19:25:58 open db
+2020/02/12 19:29:50 start operations loop
+2020/02/12 19:31:53 start application
+2020/02/12 19:31:54 open db
+2020/02/12 19:31:54 start operations loop
+2020/02/12 19:32:52 can't add client: expected integer
+2020/02/12 19:33:28 start application
+2020/02/12 19:33:29 open db
+2020/02/12 19:33:29 start operations loop
+2020/02/12 19:34:17 can't add client: expected integer
+2020/02/12 21:06:23 start application
+2020/02/12 21:06:23 open db
+2020/02/12 21:06:30 start application
+2020/02/12 21:06:30 open db
+2020/02/12 21:07:29 start operations loop
+2020/02/12 21:09:48 start application
+2020/02/12 21:09:48 open db
+2020/02/12 21:10:06 start application
+2020/02/12 21:10:06 open db
+2020/02/12 21:10:06 start operations loop
+2020/02/12 21:10:17 start application
+2020/02/12 21:10:17 open db
+2020/02/12 21:10:17 start operations loop
+2020/02/12 21:10:51 start application
+2020/02/12 21:10:51 open db
+2020/02/12 21:10:51 start operations loop
+2020/02/12 21:11:14 start application
+2020/02/12 21:11:14 open db
+2020/02/12 21:11:14 start operations loop
+2020/02/12 21:12:14 start application
+2020/02/12 21:12:14 open db
+2020/02/12 21:12:14 start operations loop
+2020/02/12 21:16:27 start application
+2020/02/12 21:16:27 open db
+2020/02/12 21:16:27 start operations loop
+2020/02/12 21:19:23 start application
+2020/02/12 21:19:23 open db
+2020/02/12 21:19:23 start operations loop
+2020/02/12 21:23:07 start application
+2020/02/12 21:23:07 open db
+2020/02/12 21:23:08 start operations loop
+2020/02/12 21:25:19 start application
+2020/02/12 21:25:19 open db
+2020/02/12 21:25:19 start operations loop
+2020/02/12 21:26:31 start application
+2020/02/12 21:26:31 open db
+2020/02/12 21:26:31 start operations loop
+2020/02/12 21:27:36 start application
+2020/02/12 21:27:36 open db
+2020/02/12 21:27:36 start operations loop
+2020/02/12 21:27:57 can't handle login: invalid password
+2020/02/12 21:34:27 start application
+2020/02/12 21:34:27 open db
+2020/02/12 21:34:27 start operations loop
+2020/02/12 21:35:08 can't add client: column index out of range
+2020/02/12 21:36:45 start application
+2020/02/12 21:36:45 open db
+2020/02/12 21:36:45 start operations loop
+2020/02/12 21:37:13 can't add client: column index out of range
+2020/02/12 21:41:11 start application
+2020/02/12 21:41:11 open db
+2020/02/12 21:41:11 start operations loop
+2020/02/12 21:45:25 start application
+2020/02/12 21:45:25 open db
+2020/02/12 21:45:25 start operations loop
+2020/02/12 21:57:18 start application
+2020/02/12 21:57:18 open db
+2020/02/12 21:57:18 start operations loop
+2020/02/12 21:58:53 can't add service: table service has no column named balance
+2020/02/12 21:59:08 start application
+2020/02/12 21:59:08 open db
+2020/02/12 21:59:08 start operations loop
+2020/02/12 21:59:40 can't add service: table service has no column named balance
+2020/02/12 21:59:59 start application
+2020/02/12 21:59:59 open db
+2020/02/12 21:59:59 start operations loop
+2020/02/12 22:06:51 start application
+2020/02/12 22:06:51 open db
+2020/02/12 22:06:51 start operations loop
+2020/02/12 22:11:07 can't add service: table service has no column named balance
+2020/02/12 22:11:27 start application
+2020/02/12 22:11:27 open db
+2020/02/12 22:11:27 start operations loop
+2020/02/12 22:42:38 start application
+2020/02/12 22:42:38 open db
+2020/02/12 22:42:38 start operations loop
+2020/02/13 03:05:36 start application
+2020/02/13 03:05:36 open db
+2020/02/13 03:05:37 start operations loop
+2020/02/13 03:11:11 start application
+2020/02/13 03:11:11 open db
+2020/02/13 03:11:11 start operations loop
+2020/02/13 03:11:32 can't update balance: no such table: balance
+2020/02/13 03:12:48 start application
+2020/02/13 03:12:48 open db
+2020/02/13 03:12:48 start operations loop
+2020/02/13 03:13:13 can't update balance: no such table: balance
+2020/02/13 04:33:50 start application
+2020/02/13 04:33:50 open db
+2020/02/13 04:33:50 can't init db: near "CHECK": syntax error
+2020/02/13 04:35:09 start application
+2020/02/13 04:35:10 open db
+2020/02/13 04:35:10 start operations loop
+2020/02/13 04:37:04 start application
+2020/02/13 04:37:04 open db
+2020/02/13 04:37:04 start operations loop
+2020/02/13 04:38:35 can't add client: NOT NULL constraint failed: client.balance
+2020/02/13 04:39:26 start application
+2020/02/13 04:39:26 open db
+2020/02/13 04:39:26 start operations loop
+2020/02/13 04:40:20 can't add client: NOT NULL constraint failed: client.balance
+2020/02/13 04:41:19 start application
+2020/02/13 04:41:19 open db
+2020/02/13 04:41:19 start operations loop
+2020/02/13 04:42:45 can't add client: NOT NULL constraint failed: client.balance
+2020/02/13 04:45:16 start application
+2020/02/13 04:45:16 open db
+2020/02/13 04:45:16 start operations loop
+2020/02/13 04:46:47 start application
+2020/02/13 04:46:47 open db
+2020/02/13 04:46:47 start operations loop
+2020/02/13 04:48:38 start application
+2020/02/13 04:48:38 open db
+2020/02/13 04:48:38 start operations loop
+2020/02/13 04:49:06 can't add client: NOT NULL constraint failed: client.balance
+2020/02/13 04:51:12 start application
+2020/02/13 04:51:12 open db
+2020/02/13 04:51:12 start operations loop
+2020/02/13 04:53:56 can't add client: expected integer
+2020/02/13 05:08:09 start application
+2020/02/13 05:08:09 open db
+2020/02/13 05:08:09 start operations loop
+2020/02/13 05:08:45 can't update balance: column index out of range
+2020/02/13 05:22:41 start application
+2020/02/13 05:22:41 open db
+2020/02/13 05:22:41 start operations loop
+2020/02/13 05:23:45 can't add client: expected integer
+2020/02/13 05:23:56 can't update balance: near "?": syntax error
+2020/02/13 05:24:40 start application
+2020/02/13 05:24:40 open db
+2020/02/13 05:24:40 start operations loop
+2020/02/13 05:24:59 can't update balance: column index out of range
+2020/02/13 05:30:40 start application
+2020/02/13 05:30:40 open db
+2020/02/13 05:30:40 start operations loop
+2020/02/13 13:30:44 start application
+2020/02/13 13:30:44 open db
+2020/02/13 13:30:44 start operations loop
+2020/02/13 13:31:50 can't open function: 0x539120
