@@ -12,7 +12,8 @@ import (
 )
 
 const errorLogin = "Неправильно введён логин или пароль. Попробуйте ещё раз."
-const incorrectCommand  = "Вы выбрали неверную команду: %s\n"
+const incorrectCommand = "Вы выбрали неверную команду: %s\n"
+
 // TODO: для тех, кто хочет попробовать, можете использовать структуры и методы:
 type manager struct {
 	db  *sql.DB
@@ -87,7 +88,7 @@ func unauthorizedOperationsLoop(db *sql.DB, cmd string) (exit bool) {
 			return false
 		}
 		operationsLoop(db, authorizedOperations, authorizedOperationsLoop)
-	case "2":  // TODO:  список банкоматов
+	case "2": // TODO:  список банкоматов
 		products, err := core.GetAllProducts(db)
 		if err != nil {
 			log.Printf("can't get all products: %v", err)
@@ -145,8 +146,11 @@ func authorizedOperationsLoop(db *sql.DB, cmd string) (exit bool) {
 		if err != nil {
 			log.Printf("can't open function: %v", err)
 		}
-
-
+	case "9":
+		err := servicePaying(db)
+		if err != nil {
+			log.Printf("can't pay for service")
+		}
 
 	case "q":
 		return true
@@ -214,8 +218,7 @@ func handleSale(db *sql.DB) (err error) {
 	return nil
 }
 
-
-func handleClient(db *sql.DB) (err error) {  // dobavka klienta
+func handleClient(db *sql.DB) (err error) { // dobavka klienta
 	fmt.Println("Введите данные клиента")
 	var name string
 	fmt.Print("Введите имя: ")
@@ -265,7 +268,6 @@ func handleClient(db *sql.DB) (err error) {  // dobavka klienta
 		return err
 	}
 
-
 	err = core.AddUser(name, login, password, passportSeries, numberPhone, balance, balanceNumber, db)
 	if err != nil {
 		return err
@@ -274,11 +276,7 @@ func handleClient(db *sql.DB) (err error) {  // dobavka klienta
 	return nil
 }
 
-
-
-
-
-func handleATM(db *sql.DB) (err error) {  // dobavka klienta
+func handleATM(db *sql.DB) (err error) { // dobavka klienta
 	fmt.Println("Введите данные банкомата")
 	var name string
 	fmt.Print("Введите имя: ")
@@ -293,7 +291,6 @@ func handleATM(db *sql.DB) (err error) {  // dobavka klienta
 		return err
 	}
 
-
 	err = core.AddAtm(name, address, db)
 	if err != nil {
 		return err
@@ -302,9 +299,7 @@ func handleATM(db *sql.DB) (err error) {  // dobavka klienta
 	return nil
 }
 
-
-
-func handleService(db *sql.DB) (err error) {  // dobavka klienta
+func handleService(db *sql.DB) (err error) { // dobavka klienta
 	fmt.Println("Введите данные услуги")
 	var name string
 	fmt.Print("Введите название услуги: ")
@@ -319,7 +314,6 @@ func handleService(db *sql.DB) (err error) {  // dobavka klienta
 		return err
 	}
 
-
 	err = core.AddService(name, price, db)
 	if err != nil {
 		return err
@@ -328,9 +322,7 @@ func handleService(db *sql.DB) (err error) {  // dobavka klienta
 	return nil
 }
 
-
-
-func updateBalance(db *sql.DB) (err error) {  // dobavka klienta
+func updateBalance(db *sql.DB) (err error) { // dobavka klienta
 	fmt.Println("Введите данные клиента")
 	var id int64
 	fmt.Print("Введите счет клиента: ")
@@ -345,7 +337,6 @@ func updateBalance(db *sql.DB) (err error) {  // dobavka klienta
 		return err
 	}
 
-
 	err = core.UpdateBalanceClient(id, balance, db)
 	if err != nil {
 		return err
@@ -354,9 +345,7 @@ func updateBalance(db *sql.DB) (err error) {  // dobavka klienta
 	return nil
 }
 
-
-
-func handleCard(db *sql.DB) (err error) {  // dobavka klienta
+func handleCard(db *sql.DB) (err error) { // dobavka klienta
 	fmt.Println("Введите данные счета: ")
 	var name string
 	fmt.Print("Введите имя: ")
@@ -378,11 +367,70 @@ func handleCard(db *sql.DB) (err error) {  // dobavka klienta
 		return err
 	}
 
-
-//	err = core.AddCard(name, cardBalance, cardUserId, db)
+	//	err = core.AddCard(name, cardBalance, cardUserId, db)
 	if err != nil {
 		return err
 	}
 	fmt.Println("Банкомат успешно добавлен!")
 	return nil
+}
+
+func servicePaying(db *sql.DB) (err error) { // dobavka klienta
+	fmt.Println("Введите данные услуги: ")
+	var id int64
+	fmt.Print("Введите ID услуги: ")
+	_, err = fmt.Scan(&id)
+	if err != nil {
+		return err
+	}
+	var balance int64
+	fmt.Print("Введите сумму которую вы собираетесь заплатить: ")
+	_, err = fmt.Scan(&balance)
+	if err != nil {
+		return err
+	}
+
+	fmt.Println("Подтвердите что это вы!")
+	if login, yes := areYouSure(db); yes {
+		err := core.UpdateBalanceClientForService(login, balance, db)
+		if err != nil {
+			return err
+		}
+
+		err = core.PayForService(id, balance, db)
+		if err != nil {
+			return err
+		}
+
+
+		fmt.Println("Услуга успешно оплачена!")
+		return nil
+	} else {
+		fmt.Println("Операция отменена")
+		return nil
+	}
+
+}
+
+func areYouSure(db *sql.DB) (string, bool) {
+	fmt.Println("Введите ваш логин и пароль")
+	var login string
+	fmt.Print("Логин: ")
+	_, err := fmt.Scan(&login)
+	if err != nil {
+		return login, false
+	}
+	var password string
+	fmt.Print("Пароль: ")
+	_, err = fmt.Scan(&password)
+	if err != nil {
+		return login, false
+	}
+
+	_, err = core.Login(login, password, db)
+	if err != nil {
+		return login, false
+	}
+
+	return login, true
 }
