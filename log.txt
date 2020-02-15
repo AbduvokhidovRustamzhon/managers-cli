@@ -405,3 +405,186 @@
 2020/02/14 22:18:29 start application
 2020/02/14 22:18:30 open db
 2020/02/14 22:18:30 start operations loop
+2020/02/14 22:20:10 start application
+2020/02/14 22:20:10 open db
+2020/02/14 22:20:10 start operations loop
+2020/02/14 22:49:10 start application
+2020/02/14 22:49:10 open db
+2020/02/14 22:49:10 start operations loop
+2020/02/15 01:14:44 start application
+2020/02/15 01:14:44 open db
+2020/02/15 01:14:44 start operations loop
+2020/02/15 01:20:49 start application
+2020/02/15 01:20:49 open db
+2020/02/15 01:20:49 start operations loop
+2020/02/15 01:23:25 start application
+2020/02/15 01:23:25 open db
+2020/02/15 01:23:25 start operations loop
+2020/02/15 01:30:06 start application
+2020/02/15 01:30:06 open db
+2020/02/15 01:30:06 start operations loop
+2020/02/15 01:36:03 start application
+2020/02/15 01:36:03 open db
+2020/02/15 01:36:03 start operations loop
+2020/02/15 01:45:49 start application
+2020/02/15 01:45:49 open db
+2020/02/15 01:45:49 start operations loop
+2020/02/15 01:47:21 start application
+2020/02/15 01:47:22 open db
+2020/02/15 01:47:22 start operations loop
+2020/02/15 01:47:56 undefind
+2020/02/15 01:48:35 start application
+2020/02/15 01:48:35 open db
+2020/02/15 01:48:35 start operations loop
+2020/02/15 01:48:56 undefind
+2020/02/15 01:50:10 start application
+2020/02/15 01:50:10 open db
+2020/02/15 01:50:10 start operations loop
+2020/02/15 01:50:44 start application
+2020/02/15 01:50:44 open db
+2020/02/15 01:50:44 start operations loop
+2020/02/15 01:55:20 start application
+2020/02/15 01:55:20 open db
+2020/02/15 01:55:20 start operations loop
+2020/02/15 01:56:02 start application
+2020/02/15 01:56:02 open db
+2020/02/15 01:56:02 start operations loop
+2020/02/15 02:04:43 start application
+2020/02/15 02:04:43 open db
+2020/02/15 02:04:43 start operations loop
+2020/02/15 02:13:52 start application
+2020/02/15 02:13:52 open db
+2020/02/15 02:13:52 start operations loop
+2020/02/15 02:14:31 can't get all products: expected integer
+2020/02/15 02:16:17 start application
+2020/02/15 02:16:17 open db
+2020/02/15 02:16:17 start operations loop
+2020/02/15 02:17:03 can't get all products: no such column: phone_number
+2020/02/15 02:17:29 can't get all products: no such column: phone_number
+2020/02/15 02:18:40 can't get all products: no such column: phone_number
+2020/02/15 02:18:51 can't get all products: no such column: phone_number
+2020/02/15 02:20:26 can't get all products: no such column: phone_number
+2020/02/15 02:21:55 can't get all products: sql: no rows in result set
+2020/02/15 03:18:01 start application
+2020/02/15 03:18:01 open db
+2020/02/15 03:18:01 start operations loop
+2020/02/15 03:22:34 start application
+2020/02/15 03:22:34 open db
+2020/02/15 03:22:34 start operations loop
+2020/02/15 03:22:47 еexdedk
+2020/02/15 03:24:31 start application
+2020/02/15 03:24:31 open db
+2020/02/15 03:24:31 start operations loop
+2020/02/15 03:24:42 еexdedk
+2020/02/15 03:25:21 start application
+2020/02/15 03:25:21 open db
+2020/02/15 03:25:21 start operations loop
+2020/02/15 03:26:00 еexdedk
+2020/02/15 03:27:30 start application
+2020/02/15 03:27:31 open db
+2020/02/15 03:27:31 start operations loop
+2020/02/15 03:27:42 еexdedk
+2020/02/15 03:29:02 start application
+2020/02/15 03:29:02 open db
+2020/02/15 03:29:02 start operations loop
+2020/02/15 03:29:43 start application
+2020/02/15 03:29:43 open db
+2020/02/15 03:29:43 start operations loop
+2020/02/15 03:29:53 sql: expected 3 destination arguments in Scan, not 2
+2020/02/15 03:30:59 start application
+2020/02/15 03:30:59 open db
+2020/02/15 03:30:59 start operations loop
+2020/02/15 03:35:46 start application
+2020/02/15 03:35:46 open db
+2020/02/15 03:35:46 start operations loop
+2020/02/15 03:36:20 start application
+2020/02/15 03:36:20 open db
+2020/02/15 03:36:20 start operations loop
+2020/02/15 03:55:22 start application
+2020/02/15 03:55:22 open db
+2020/02/15 03:55:22 start operations loop
+2020/02/15 03:56:18 start application
+2020/02/15 03:56:18 open db
+2020/02/15 03:56:18 start operations loop
+2020/02/15 03:58:37 start application
+2020/02/15 03:58:37 open db
+2020/02/15 03:58:37 start operations loop
+2020/02/15 04:00:31 start application
+2020/02/15 04:00:31 open db
+2020/02/15 04:00:31 start operations loop
+2020/02/15 04:00:54 start application
+2020/02/15 04:00:54 open db
+2020/02/15 04:00:54 start operations loop
+2020/02/15 04:02:51 start application
+2020/02/15 04:02:51 open db
+2020/02/15 04:02:51 start operations loop
+2020/02/15 04:04:20 start application
+2020/02/15 04:04:20 open db
+2020/02/15 04:04:20 start operations loop
+2020/02/15 04:04:36 sql: expected 8 destination arguments in Scan, not 5
+2020/02/15 04:07:15 start application
+2020/02/15 04:07:15 open db
+2020/02/15 04:07:15 start operations loop
+2020/02/15 04:07:34 sql: expected 8 destination arguments in Scan, not 5
+2020/02/15 04:08:24 start application
+2020/02/15 04:08:24 open db
+2020/02/15 04:08:24 start operations loop
+2020/02/15 04:08:38 sql: expected 8 destination arguments in Scan, not 5
+2020/02/15 04:09:36 start application
+2020/02/15 04:09:37 open db
+2020/02/15 04:09:37 start operations loop
+2020/02/15 04:12:36 start application
+2020/02/15 04:12:36 open db
+2020/02/15 04:12:36 start operations loop
+2020/02/15 04:13:08 sql: expected 8 destination arguments in Scan, not 5
+2020/02/15 04:13:18 sql: expected 8 destination arguments in Scan, not 5
+2020/02/15 04:13:20 sql: expected 8 destination arguments in Scan, not 5
+2020/02/15 04:13:22 sql: expected 8 destination arguments in Scan, not 5
+2020/02/15 04:15:15 start application
+2020/02/15 04:15:15 open db
+2020/02/15 04:15:15 start operations loop
+2020/02/15 04:17:44 start application
+2020/02/15 04:17:44 open db
+2020/02/15 04:17:44 start operations loop
+2020/02/15 04:36:57 start application
+2020/02/15 04:36:57 open db
+2020/02/15 04:36:57 start operations loop
+2020/02/15 04:42:10 start application
+2020/02/15 04:42:10 open db
+2020/02/15 04:42:10 start operations loop
+2020/02/15 04:42:35 sql: expected 8 destination arguments in Scan, not 7
+2020/02/15 04:42:47 sql: expected 8 destination arguments in Scan, not 7
+2020/02/15 04:42:52 column index out of range
+2020/02/15 04:42:59 open clients.json: The system cannot find the file specified.
+2020/02/15 04:43:09 column index out of range
+2020/02/15 04:43:16 open clients.xml: The system cannot find the file specified.
+2020/02/15 04:45:11 sql: expected 8 destination arguments in Scan, not 7
+2020/02/15 04:47:53 start application
+2020/02/15 04:47:53 open db
+2020/02/15 04:47:53 start operations loop
+2020/02/15 04:48:28 start application
+2020/02/15 04:48:28 open db
+2020/02/15 04:48:28 start operations loop
+2020/02/15 04:50:25 start application
+2020/02/15 04:50:25 open db
+2020/02/15 04:50:25 start operations loop
+2020/02/15 04:50:42 sql: expected 8 destination arguments in Scan, not 7
+2020/02/15 04:56:46 start application
+2020/02/15 04:56:46 open db
+2020/02/15 04:56:46 start operations loop
+2020/02/15 05:02:36 start application
+2020/02/15 05:02:36 open db
+2020/02/15 05:02:36 start operations loop
+2020/02/15 05:03:08 column index out of range
+2020/02/15 05:03:08 column index out of range
+2020/02/15 05:03:09 column index out of range
+2020/02/15 05:03:10 column index out of range
+2020/02/15 05:44:53 start application
+2020/02/15 05:44:53 open db
+2020/02/15 05:44:53 start operations loop
+2020/02/15 05:45:39 start application
+2020/02/15 05:45:39 open db
+2020/02/15 05:45:39 start operations loop
+2020/02/15 05:59:10 start application
+2020/02/15 05:59:11 open db
+2020/02/15 05:59:11 start operations loop

@@ -140,17 +140,7 @@ func authorizedOperationsLoop(db *sql.DB, cmd string) (exit bool) {
 			log.Printf("can't update balance: %v", err)
 		}
 	case "7":
-		fmt.Println("w") //TODO
-	case "8":
-		err := ExportOperationsLoop
-		if err != nil {
-			log.Printf("can't open function: %v", err)
-		}
-	case "9":
-		err := servicePaying(db)
-		if err != nil {
-			log.Printf("can't pay for service")
-		}
+		operationsLoop(db, exportImportOperationsLoop, ImportExportOperationsLoop)
 
 	case "q":
 		return true
@@ -375,62 +365,63 @@ func handleCard(db *sql.DB) (err error) { // dobavka klienta
 	return nil
 }
 
-func servicePaying(db *sql.DB) (err error) { // dobavka klienta
-	fmt.Println("Введите данные услуги: ")
-	var id int64
-	fmt.Print("Введите ID услуги: ")
-	_, err = fmt.Scan(&id)
-	if err != nil {
-		return err
-	}
-	var balance int64
-	fmt.Print("Введите сумму которую вы собираетесь заплатить: ")
-	_, err = fmt.Scan(&balance)
-	if err != nil {
-		return err
-	}
 
-	fmt.Println("Подтвердите что это вы!")
-	if login, yes := areYouSure(db); yes {
-		err := core.UpdateBalanceClientForService(login, balance, db)
+func ImportExportOperationsLoop(db *sql.DB, cmd string) bool {
+	switch cmd {
+	case "1":
+		err := core.ExportAtmsToJSON(db)
+		fmt.Println("Список банкоматов успешно экспортирован в JSON")
 		if err != nil {
-			return err
+			log.Println(err)
 		}
-
-		err = core.PayForService(id, balance, db)
+	case "2":
+		err := core.ExportClientsToJSON(db)
+		fmt.Println("Список клиентов успешно экспортирован в JSON")
 		if err != nil {
-			return err
+			log.Println(err)
 		}
-
-
-		fmt.Println("Услуга успешно оплачена!")
-		return nil
-	} else {
-		fmt.Println("Операция отменена")
-		return nil
+	case "3":
+		err := core.ExportAtmsToXML(db)
+		fmt.Println("Список банкоматов успешно экспортирован в XML")
+		if err != nil {
+			log.Println(err)
+		}
+	case "4":
+		err := core.ExportClientsToXML(db)
+		fmt.Println("Список клиентов успешно экспортирован в XML")
+		if err != nil {
+			log.Println(err)
+		}
+	case "5":
+		err := core.ImportAtmsFromJSON(db)
+		fmt.Println("Список банкоматов успешно импортирован в JSON")
+		if err != nil {
+			log.Print(err)
+		}
+	case "6":
+		err := core.ImportClientsFromJSON(db)
+		fmt.Println("Список клиентов успешно импортирован в JSON")
+		if err != nil {
+			log.Println(err)
+		}
+	case "7":
+		err := core.ImportAtmsFromXML(db)
+		fmt.Println("Список банкоматов успешно импортирован в XML")
+		if err != nil {
+			log.Println(err)
+		}
+	case "8":
+		err := core.ImportClientsFromXML(db)
+		fmt.Println("Список клиентов успешно импортирован в XML")
+		if err != nil {
+			log.Println(err)
+		}
+	case "q":
+		operationsLoop(db, authorizedOperations, authorizedOperationsLoop)
+		default:
+		fmt.Printf("Вы выбрали неверную команду: %s\n", cmd)
 	}
 
+	return false
 }
 
-func areYouSure(db *sql.DB) (string, bool) {
-	fmt.Println("Введите ваш логин и пароль")
-	var login string
-	fmt.Print("Логин: ")
-	_, err := fmt.Scan(&login)
-	if err != nil {
-		return login, false
-	}
-	var password string
-	fmt.Print("Пароль: ")
-	_, err = fmt.Scan(&password)
-	if err != nil {
-		return login, false
-	}
-
-	_, err = core.Login(login, password, db)
-	if err != nil {
-		return login, false
-	}
-
-	return login, true
-}
